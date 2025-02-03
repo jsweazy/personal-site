@@ -19,8 +19,8 @@ export default function PointerShape({
       <style>
         {`
           @keyframes gradientShift {
-            0%, 100% { stop-color: ${startColor}; }
-            50% { stop-color: ${endColor}; }
+            0%, 100% { stopColor: ${startColor}; }
+            50% { stopColor: ${endColor}; }
           }
           .animate-gradient stop {
             animation: gradientShift ${animationDuration}s ease-in-out infinite;
@@ -30,11 +30,11 @@ export default function PointerShape({
           }
         `}
       </style>
-      <path opacity="0.323326" d="M71.8892 77.4721L86.5202 26.4478L5.00004 3.07233L71.8892 77.4721Z" stroke="url(#paint0_linear_0_22)" stroke-width="3" />
+      <path opacity="0.323326" d="M71.8892 77.4721L86.5202 26.4478L5.00004 3.07233L71.8892 77.4721Z" stroke="url(#paint0_linear_0_22)" strokeWidth="3" />
       <defs>
         <linearGradient id="paint0_linear_0_22" x1="104.717" y1="59.2755" x2="57.4479" y2="-26" gradientUnits="userSpaceOnUse" className="animate-gradient">
-          <stop stop-color="#511370" />
-          <stop offset="1" stop-color="#6297F5" />
+          <stop stopColor="#511370" />
+          <stop offset="1" stopColor="#6297F5" />
         </linearGradient>
       </defs>
     </svg>

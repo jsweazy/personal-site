@@ -19,8 +19,8 @@ export default function EightShape({
       <style>
         {`
           @keyframes gradientShift {
-            0%, 100% { stop-color: ${startColor}; }
-            50% { stop-color: ${endColor}; }
+            0%, 100% { stopColor: ${startColor}; }
+            50% { stopColor: ${endColor}; }
           }
           .animate-gradient stop {
             animation: gradientShift ${animationDuration}s ease-in-out infinite;
@@ -30,11 +30,11 @@ export default function EightShape({
           }
         `}
       </style>
-      <path opacity="0.530859" d="M292.838 26.3696L143.008 2.69211L134.888 207.843L3.99997 132.319L292.838 26.3696Z" stroke="url(#paint0_linear_0_53)" stroke-width="3" />
+      <path opacity="0.530859" d="M292.838 26.3696L143.008 2.69211L134.888 207.843L3.99997 132.319L292.838 26.3696Z" stroke="url(#paint0_linear_0_53)" strokeWidth="3" />
       <defs>
         <linearGradient id="paint0_linear_0_53" x1="205.054" y1="-51.2381" x2="5.95925" y2="134.42" gradientUnits="userSpaceOnUse" className="animate-gradient">
-          <stop stop-color={startColor} />
-          <stop offset="1" stop-color={endColor} />
+          <stop stopColor={startColor} />
+          <stop offset="1" stopColor={endColor} />
         </linearGradient>
       </defs>
     </svg>

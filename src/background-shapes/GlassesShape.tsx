@@ -19,8 +19,8 @@ export default function ArrowShape({
       <style>
         {`
           @keyframes gradientShift {
-            0%, 100% { stop-color: ${startColor}; }
-            50% { stop-color: ${endColor}; }
+            0%, 100% { stopColor: ${startColor}; }
+            50% { stopColor: ${endColor}; }
           }
           .animate-gradient stop {
             animation: gradientShift ${animationDuration}s ease-in-out infinite;
@@ -30,11 +30,11 @@ export default function ArrowShape({
           }
         `}
       </style>
-      <path opacity="0.396875" d="M1 169.503L185.09 117.847L212.5 1L89.3224 180L1 169.503Z" stroke="url(#paint0_linear_0_51)" stroke-width="3" />
+      <path opacity="0.396875" d="M1 169.503L185.09 117.847L212.5 1L89.3224 180L1 169.503Z" stroke="url(#paint0_linear_0_51)" strokeWidth="3" />
       <defs>
         <linearGradient id="paint0_linear_0_51" x1="5.20488" y1="8.11748" x2="5.20488" y2="180" gradientUnits="userSpaceOnUse" className="animate-gradient">
-          <stop stop-color={startColor} />
-          <stop offset="1" stop-color={endColor} />
+          <stop stopColor={startColor} />
+          <stop offset="1" stopColor={endColor} />
         </linearGradient>
       </defs>
     </svg>
