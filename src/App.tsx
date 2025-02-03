@@ -11,7 +11,7 @@ import GlassesShape from "@/background-shapes/GlassesShape"
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#2B2B37] to-[#141A22]">
+    <div className="min-h-dvh flex flex-col bg-gradient-to-b from-[#2B2B37] to-[#141A22]">
       <RandomSVGPlacer
         svgItems={[
           { component: SShape, size: 90 },
