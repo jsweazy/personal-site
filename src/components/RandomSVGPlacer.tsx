@@ -88,7 +88,7 @@ const RandomSVGPlacer: React.FC<RandomSVGPlacerProps> = ({ svgItems, width = 144
   return (
     <div className="fixed inset-0 overflow-hidden">
       <div
-        className="absolute overflow-hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
         style={{
           width: `${width}px`,
           height: `${height}px`,
